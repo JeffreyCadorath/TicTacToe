@@ -1,0 +1,82 @@
+body {
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.gameOver {
+  background: red;
+  border: 3px solid red;
+}
+
+.turnBar {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 430px;
+  padding-top: 15px;
+}
+
+button {
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin: 0px auto 3px auto;
+  width: 205px;
+  border: 2px solid black;
+  font-size: 20px;
+  background: green;
+}
+
+#playerTurnDisplay {
+  display: inline-block;
+  text-align: center;
+  width: 205px;
+  margin: 0px auto 20px auto;
+}
+
+.xTurn {
+  background: red;
+  border: 3px solid yellow;
+}
+
+.yTurn {
+  background: yellow;
+  border: 3px solid blue;
+}
+
+td {
+  width: 45px;
+  height: 45px;
+  border: 1px solid black;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(136, 4, 136);
+}
+
+td:hover {
+  background-color: rgb(70, 249, 255);
+}
+
+table {
+  border-collapse: collapse;
+  height: 500px;
+  width: 500px;
+  cursor: pointer;
+}
+
+.gameTable {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.xOut {
+  background-color: rgb(255, 65, 214);
+}
